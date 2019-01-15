@@ -1,0 +1,77 @@
+/*有内容,可取消,可确定,可关闭,可拖拽的弹出层*/
+.az-dialogp{
+  width: 260px;
+  height: 154px;
+  z-index: 9999999;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 1px 1px 50px rgba(0,0,0,.3);
+  border-radius: 2px;
+  position: fixed;
+  top: 150px;
+  left: 50%;
+  display: none;
+}
+.az-titlep{
+  cursor: move;
+  padding: 0 80px 0 20px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: #F8F8F8;
+  border-radius: 2px 2px 0 0;
+}
+.az-setwindp{
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  line-height: initial;
+}
+.az-closep{
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.az-paddingp{
+  padding: 20px;
+  line-height: 24px;
+  word-break: break-all;
+  font-size: 14px;
+  overflow: auto;
+}
+.az-dialogp .az-btnp{
+  padding-top: 10px;
+  text-align: center;
+  padding: 0 10px 12px;
+  pointer-events: auto;
+}
+.az-btnp .az-btnConfirm {
+  border-color: #4898d5;
+  background-color: #2e8ded;
+  color: #fff;
+}
+.az-btnp a {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 6px;
+  padding: 0 15px;
+  border: 1px solid #dedede;
+  background-color: #f1f1f1;
+  color: #333;
+  border-radius: 2px;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: top;
+}

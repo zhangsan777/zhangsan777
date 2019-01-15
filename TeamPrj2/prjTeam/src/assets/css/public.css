@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, option, select, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td, p {
+  margin: 0;
+  padding: 0; }
+
+*{
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%; }
+
+body, input, textarea {
+  font-family: Arial,Verdana,"微软雅黑";
+  font-size: inherit;
+}
+input, select, textarea, button {
+  border: 0;
+  outline: 0;
+  resize: none;
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  text-rendering: auto;
+  color: initial;
+}
+
+body {
+  background:  #edf2f5;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none; }
+
+img {
+  border: none;
+  display: block; }
+
+/* //去掉状态 */
+i, em, strong, b, s {
+  font-style: normal; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  font-size: inherit;
+  color: #212121;
+}
+
+.f1 {
+  float: left; }
+
+.f2 {
+  float: right; }
+
+i, s {
+  display: inline-block;
+  vertical-align: middle; }
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse; }
+
+/* //防止高度塌陷  */
+.wrap:after, .clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
